@@ -9,8 +9,8 @@ body {
 }
 
 .success {
+  padding: 0.1rem 2rem;
   background-color: #660066;
-
 }
 
 .navbar-brand {
@@ -23,7 +23,7 @@ body {
 header {
   background-image: url('../img/bg_hero.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   padding-bottom: 10rem;
 }
@@ -32,6 +32,47 @@ header {
   padding: 0.5rem 5rem;
 }
 
+h1 {
+  font-family: 'Oswald';
+  text-align: center;
+  padding: 3rem 2.5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 h4 {
   line-height: 3rem;
+}
+
+h5 {
+  font-family: 'Oswald';
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  line-height: 2rem;
+  padding: 0 2.5rem;
+}
+
+.card {
+  margin: 1.25rem auto;
+  width: 20em;
+}
+
+.card-text {
+  font-weight: 300;
+}
+
+#ultimos-trabajos {
+  background-color: #f3f3f3;
+}
+
+#final {
+  background-color: #333;
+}
+
+.iconos i {
+  padding: 5rem;
 }

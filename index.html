@@ -12,8 +12,8 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald:200,600,700&display=swap" rel="stylesheet">
 
-    <!--Font Awesome-->
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Lobster&display=swap" rel="stylesheet">
+    <!--Font Awesome 5.8.2-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <!--Mi estilo-->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -37,21 +37,210 @@
       </div>
     </nav>
 
-    <header class="hero text-light text-center pt-5 mt-5">
-      <div class="container">
-        <h1 class="display-1 font-weight-bold mt-5">yo soy</h1>
-        <h1 id="" class="display-1 font-weight-bold my-4">Rodrigo</h1>
-        <a href="#work" class="btn btn-dark btn-lg">Trabajos</a>
-      </div>
-    </header>
+    <section id="hero">
+      <header class="hero text-light text-center pt-5 mt-5">
+        <div class="container">
+          <h1 class="display-1 font-weight-bold mt-5">yo soy</h1>
+          <h1 id="" class="display-1 font-weight-bold my-4">Rodrigo</h1>
+          <a href="#work" class="btn btn-dark btn-lg">Trabajos</a>
+        </div>
+      </header>
+    </section>
 
-    <div class="container py-5 text-center">
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h4>
+    <section id="bajada">
+      <div class="container py-5 text-center">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h4>
+      </div>
+    </section>
+
+    <section id="contenido-1">
+      <div class="container py-3">
+        <div class="row no-gutters">
+          <div class="col-md-6 px">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+          </div>
+
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mi-experiencia">
+      <div class="container text-center">
+        <h1 class="py-3">Mi experiencia</h1>
+      </div>
+
+      <div class="container my-2 py-4">
+      <div class="row">
+
+        <div class="col-12">
+          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+
+            <div class="carousel-inner">
+              <ol class="carousel-indicators">
+                <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#blogCarousel" data-slide-to="1"></li>
+              </ol>
+
+              <!--imgs 1-->
+              <div class="carousel-item active">
+                <div class="row">
+
+                  <div class="col-3">
+                    <img src="assets/img/slider-1.png" alt="slider-1">
+                  </div>
+
+                  <div class="col-3">
+                    <img src="assets/img/slider-2.png" alt="slider-2">
+                  </div>
+
+                  <div class="col-3">
+                    <img src="assets/img/slider-3.png" alt="slider-3">
+                  </div>
+
+                  <div class="col-3">
+                    <img src="assets/img/slider-4.png" alt="slider-4">
+                  </div>
+                </div>
+              </div>
+
+              <!--img-2-->
+              <div class="carousel-item">
+                <div class="row">
+
+                  <div class="col-3">
+                    <img src="assets/img/slider-5.png" alt="slider-5">
+                  </div>
+
+                  <div class="col-3">
+                    <img src="assets/img/slider-6.png" alt="slider-6">
+                  </div>
+
+                  <div class="col-3">
+                    <img src="assets/img/slider-7.png" alt="slider-7">
+                  </div>
+
+                  <div class="col-3">
+                    <img src="assets/img/slider-8.png" alt="slider-8">
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
+    </section>
+
+    <section id="ultimos-trabajos">
+      <div class="container-fluid py-5 my-5">
+        <div class="container">
+          <h1>Mis últimos trabajos</h1>
+          <div class="row">
+
+            <!--1-->
+            <div class="card .col-3 .col-md-4">
+              <img src="assets/img/1-meet_coffee.png" class="card-img-top" alt="Meet-coffee">
+              <div class="card-body">
+                <h5 class="card-title">Meet & coffee</h5>
+                <h6 class="card-text">Felis tincidunt vel risus lacus posuere dignissim.</h6>
+              </div>
+            </div>
+
+            <!--2-->
+            <div class="card .col-3 .col-md-4">
+              <img src="assets/img/2-iguana_page.png" class="card-img-top" alt="Iguana">
+              <div class="card-body">
+                <h5 class="card-title">Iguana Page</h5>
+                <h6 class="card-text">Felis tincidunt vel   risus lacus posuere dignissim.</h6>
+              </div>
+            </div>
+
+            <!--3-->
+            <div class="card .col-3 .col-md-4">
+              <img src="assets/img/3-suricata.png" class="card-img-top" alt="Suricata">
+              <div class="card-body">
+                <h5 class="card-title">Suricata</h5>
+                <h6 class="card-text">Felis tincidunt vel   risus lacus posuere dignissim.</h6>
+              </div>
+            </div>
+
+            <!--4-->
+            <div class="card .col-3 .col-md-4">
+              <img src="assets/img/4-cuppon.png" class="card-img-top" alt="Cuppon">
+              <div class="card-body">
+                <h5 class="card-title">Cuppon</h5>
+                <h6 class="card-text">Felis tincidunt vel   risus lacus posuere dignissim.</h6>
+              </div>
+            </div>
+
+            <!--5-->
+            <div class="card .col-3 .col-md-4">
+              <img src="assets/img/5-ricomida.png" class="card-img-top" alt="Ricomida">
+              <div class="card-body">
+                <h5 class="card-title">Ricomida</h5>
+                <h6 class="card-text">Felis tincidunt vel   risus lacus posuere dignissim.</h6>
+              </div>
+            </div>
+
+            <!--6-->
+            <div class="card .col-3 .col-md-4">
+              <img src="assets/img/6-dmark.png" class="card-img-top" alt="Dmark">
+              <div class="card-body">
+                <h5 class="card-title">Dmark</h5>
+                <h6 class="card-text">Felis tincidunt vel   risus lacus posuere dignissim.</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container py-5">
+        <h1>Contacto</h1>
+
+
+          </form>
+      </div>
+    </section>
+
+    <section id="final">
+      <footer class="container-fluid py-5 mt-5">
+        <div class="container">
+          <div class="col 6 text-left">
+            <a class="navbar-brand" href="#">Rodrigo</a>
+          </div>
+
+          <div class="col 6 text-right">
+            <div class="Iconos">
+              <i class="fab fa-github-square"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fab fa-facebook-square"></i>
+            </div>
+          </div>
+
+        </div>
+
+      </footer>
+    </section>
 
 
 
+    <!--jQuery sin min-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--Mi script-->
+    <script src="assets/js/script.js"></script>
   </body>

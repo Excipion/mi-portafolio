@@ -4,8 +4,8 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-    color: #ffffff;
-    border-color: #ffffff;
+    color: #fff;
+    border-color: #fff;
 }
 
 .success {
@@ -27,23 +27,27 @@ body {
 }
 
 h1 {
+  text-align: center;
   font-family: 'Oswald';
   font-size: 5rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-#variante {
-  border-bottom: 3px solid #333;
-  margin-right: 45rem;
+@media (max-width: 628px) {
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
 }
+
 
 header {
   background-image: url('../img/bg_hero-3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 10rem 15rem;
+  padding: 15rem 0;
 }
 
 .btn-dark {
@@ -58,26 +62,40 @@ header {
 h2 {
   font-family: 'Oswald';
   text-align: center;
-  padding: 4rem 2.5rem 3rem 2.5rem;
+  padding: 4rem 2.5rem 0.5rem 2.5rem;
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+hr {
+  padding: 0;
+  text-align: center;
+  border: 2px solid #333;
+  margin: 0 45% 2rem 45%;
 }
 
 .carousel-inner img {
   width: 40%;
 }
 
+.carousel-indicators {
+  top: 70px;
+}
+
 .carousel-indicators li {
+  top: 80px;
   background-color: #373A3C;
   margin-top: none;
   width: 10px;
   height: 10px;
   border-radius: 50%;
+
 }
 
 h4 {
   line-height: 3rem;
+  font-weight: 600;
 }
 
 h5 {
@@ -108,7 +126,8 @@ p {
   background-color: #520f0f;
 }
 
-.Iconos {
+.fab {
+  pointer-events: none;
   text-decoration: none;
   color: #fff;
 }

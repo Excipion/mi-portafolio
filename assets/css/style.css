@@ -10,7 +10,7 @@ body {
 
 .success {
   padding: 0.1rem 2rem;
-  background-color: #901515;
+  background-color: #520f0f;
 }
 
 .navbar-brand {
@@ -30,7 +30,12 @@ h1 {
   font-family: 'Oswald';
   font-size: 5rem;
   font-weight: 700;
-  border-top: 1px solid #333;
+  text-transform: uppercase;
+}
+
+#variante {
+  border-bottom: 3px solid #333;
+  margin-right: 45rem;
 }
 
 header {
@@ -41,6 +46,10 @@ header {
   padding: 10rem 15rem;
 }
 
+.btn-dark {
+  background-color: #520f0f;
+}
+
 .btn-lg {
   font-size: 0.8rem;
   padding: 1rem 5rem;
@@ -49,7 +58,7 @@ header {
 h2 {
   font-family: 'Oswald';
   text-align: center;
-  padding: 5rem 2.5rem;
+  padding: 4rem 2.5rem 3rem 2.5rem;
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -96,9 +105,10 @@ p {
 }
 
 #final {
-  background-color: #901515;
+  background-color: #520f0f;
 }
 
 .Iconos {
+  text-decoration: none;
   color: #fff;
 }

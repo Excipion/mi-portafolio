@@ -1,5 +1,5 @@
 body {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #373A3C;
 }
 
@@ -10,7 +10,7 @@ body {
 
 .success {
   padding: 0.1rem 2rem;
-  background-color: #660066;
+  background-color: #901515;
 }
 
 .navbar-brand {
@@ -20,25 +20,51 @@ body {
   font-size: 2.5rem;
 }
 
-header {
-  background-image: url('../img/bg_hero.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  padding-bottom: 10rem;
-}
-
-.btn-lg {
-  padding: 0.5rem 5rem;
+.display-1 {
+  margin-top: 4rem;
+  font-weight: 200;
+  font-family: 'Oswald';
 }
 
 h1 {
   font-family: 'Oswald';
+  font-size: 5rem;
+  font-weight: 700;
+  border-top: 1px solid #333;
+}
+
+header {
+  background-image: url('../img/bg_hero-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 15rem;
+}
+
+.btn-lg {
+  font-size: 0.8rem;
+  padding: 1rem 5rem;
+}
+
+h2 {
+  font-family: 'Oswald';
   text-align: center;
-  padding: 3rem 2.5rem;
+  padding: 5rem 2.5rem;
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.carousel-inner img {
+  width: 40%;
+}
+
+.carousel-indicators li {
+  background-color: #373A3C;
+  margin-top: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
 
 h4 {
@@ -58,7 +84,7 @@ p {
 
 .card {
   margin: 1.25rem auto;
-  width: 20em;
+  width: 18.5em;
 }
 
 .card-text {
@@ -70,9 +96,9 @@ p {
 }
 
 #final {
-  background-color: #333;
+  background-color: #901515;
 }
 
-.iconos i {
-  padding: 5rem;
+.Iconos {
+  color: #fff;
 }
